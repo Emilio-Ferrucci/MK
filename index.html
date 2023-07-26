@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortal Kombat</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/estilos.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+ </head>
+ <body>
+      <header class="cabecalho">
+         <img class="logo"src="./src/imagens/logo.png" alt="Logo Mortal kombat">
+      </header>
+
+      <main class="selecao-de-personagens">
+         <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+
+            <ul class="lista-de-personagens">
+
+               <li class="personagem selecionado" id="kabal.png" data-name="Kabal.png" data-description="Ainda que seja um “humano comum”, Kabal é um assassino bastante habilidoso, conseguindo bater de frente com grandes inimigos. Sua principal característica é sua super velocidade, resultado de sua exposição a altas doses de magia em Outworld.">
+                  <img src="./src/imagens/kabal-card.png" alt="Personagem Kabal">
+               </li>
+
+               <li class="personagem" id="kitana" data-name="Kitana" data-description="Assim como sua mãe, Kitana parece ter magias derivadas do Ar, uma vez que é capaz de fazer com que outras pessoas sejam levitadas, envolvidas por um “tornado” capaz de ricochetear projéteis e até mesmo ganhar impulso no ar">
+                  <img src="./src/imagens/kitana-card.png" alt="Personagem Kitana">
+               </li>
+
+               <li class="personagem" id="mileena" data-name="Mileena" data-description= "Ela é uma oponente letal, rápida e extremamente ágil. Ela possui dentes afiados e uma larga boca, que usa a seu favor para devorar o rosto e os membros de seus adversários.">
+                  <img src="./src/imagens/mileena-card.png" alt="Personagem Mileena">
+               </li>
+
+               <li class="personagem" id="raiden" data-name="Raiden" data-description= "Deus do Trovão, protetor do plano terreno.Lidera as forças do bem contra o mal, além de controlar raios tem como uma de suas habilidades o teletransporte. O seu corpo é imortal.">
+                  <img src="./src/imagens/raiden-card.png" alt="Personagem Raiden">
+               </li>
+
+               <li class="personagem" id="scorpion" data-name="Scorpion" data-description="Scorpion é conhecido por ser um ninja espectro que tem poderes de fogo e que pode utilizar perigosas armas ninjas, como katanas e shurikens, em seu favor.">
+                  <img src="./src/imagens/scorpion-card.png" alt="Personagem Scorpion">
+               </li>
+
+               <li class="personagem" id="sindel" data-name="Sindel" data-description= "Utilizando seu longo cabelo branco ela tem o poder de enrolar o adversário dos pés à cabeça e depois girá-lo rapidamente como um pião, além de estourar a cabeça do seu adversário com gritos estridentes">
+                  <img src="./src/imagens/sindel-card.png" alt="Personagem Sindel">
+               </li>
+               
+               <li class="personagem" id="sonia" data-name="Sonia" data-description="Sonya tem o poder de fogo e de manipular uma energia de cor rosa, assim como o ganho de fuga temporária (ou pelo menos a capacidade de manobra no ar). Suas habilidades são vastas, principalmente com base na agilidade, bem como mortal e impressionante devido à sua formação de Forças Especiais.">
+                  <img src="./src/imagens/sonia-card.png" alt="Personagem Sonia">
+               </li>
+
+               <li class="personagem" id="sub-zero" data-name="Sub-Zero" data-description="Justamente por serem filhos de um Cryomancer, tanto Bi-Han quanto Kuai Liang herdaram a habilidade de controlar frio. Com isso, eles são capazes de criar e moldar gelo, esfriar ambientes e até mesmo congelar pessoas em um piscar de olhos.">
+                  <img src="./src/imagens/subzero-card.png" alt="Personagem Sub-Zero">
+               </li>
+
+            </ul>
+            
+         </section>
+         <section class="personagem-selecionado">
+             <img class="personagem-grande"src="./src/imagens/kabal.png" alt="Personagem Selecionado">
+
+             <div class="informacoes-personagem">
+               <h2 class="nome-personagem" id="nome-personagem">Kabal</h2>
+               <p class="descricao-personagem" id="descricao-personagem">Ainda que seja um “humano comum”, Kabal é um assassino bastante habilidoso, conseguindo bater de frente com grandes inimigos. Sua principal característica é sua super velocidade, resultado de sua exposição a altas doses de magia em Outworld.</p>
+             </div>
+         </section>
+      </main>
+      <script src="./src/js/index.js"></script>
+ </body>
+ </html>
